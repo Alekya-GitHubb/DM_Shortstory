@@ -41,10 +41,7 @@ https://medium.com/@alekyagudise1008/stop-scrolling-start-asking-how-ai-and-llms
 
 Duration: 10–12 minutes
 Content: Explanation of problem motivation, LLM pipeline, methodology, evaluation, and insights.
-
----
-
-### 🔗 Watch the Presentation on YouTube:
+🔗 Watch the Presentation on YouTube:
 https://youtu.be/HL51ooqIgqM
 
 ---
