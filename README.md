@@ -27,7 +27,7 @@ DM_ShortStory/
 
 ---
 
-###📝 Medium Article
+### 📝 Medium Article
 
 Title: Stop Scrolling. Start Asking: How AI and LLMs Are Revolutionizing Your Hotel Booking Experience
 Published on Medium — a narrative summary of the project’s motivation, insights, and findings.
@@ -35,15 +35,21 @@ Published on Medium — a narrative summary of the project’s motivation, insig
 🔗 Read the Medium Article:
 https://medium.com/@alekyagudise1008/stop-scrolling-start-asking-how-ai-and-llms-are-revolutionizing-your-hotel-booking-experience-0bf7978f1631
 
-🎥 Video Presentation
+---
+
+### 🎥 Video Presentation
 
 Duration: 10–12 minutes
 Content: Explanation of problem motivation, LLM pipeline, methodology, evaluation, and insights.
 
-🔗 Watch the Presentation on YouTube:
+---
+
+### 🔗 Watch the Presentation on YouTube:
 https://youtu.be/HL51ooqIgqM
 
-📊 Presentation Slides
+---
+
+### 📊 Presentation Slides
 
 A visual summary of:
 
@@ -60,7 +66,9 @@ Real-world applications
 🔗 View Slides:
 https://drive.google.com/file/d/15ZHkJ81iZYucOopJcwVPGulCxusDpPhY/view?usp=sharing
 
-📄 Selected Topic & Research Paper
+---
+
+### 📄 Selected Topic & Research Paper
 
 This short story is based on the following academic paper:
 
@@ -69,7 +77,9 @@ https://arxiv.org/pdf/2510.18277
 
 The paper inspired the model pipeline and guided the evaluation of LLM-based summarization vs. traditional techniques.
 
-🧠 Core Data Mining Concepts
+---
+
+### 🧠 Core Data Mining Concepts
 
 This project demonstrates the following key data-mining concepts:
 
@@ -87,7 +97,9 @@ Anomaly detection in review signals
 
 Model evaluation (precision, recall, usefulness)
 
-📜 Paper Summary
+---
+
+### 📜 Paper Summary
 
 LLM-based review understanding provides richer context for hotel recommendations.
 
@@ -99,7 +111,10 @@ Embeddings help convert text into meaningful numerical vectors for clustering & 
 
 The study demonstrates a scalable approach for real-world recommendation systems.
 
-📦 Assignment Deliverables
+---
+
+### 📦 Assignment Deliverables
+
 Deliverable	Description	Link
 Medium Article	Human-written summary & reflection	https://medium.com/@alekyagudise1008/stop-scrolling-start-asking-how-ai-and-llms-are-revolutionizing-your-hotel-booking-experience-0bf7978f1631
 
@@ -108,12 +123,17 @@ PPT Presentation	Slide deck used for video walkthrough	https://drive.google.com/
 Video Presentation	Recorded final explanation	https://youtu.be/HL51ooqIgqM
 
 Research Paper	Base academic inspiration	https://arxiv.org/pdf/2510.18277
-💡 Reflections
+
+---
+
+### 💡 Reflections
 
 This project helped me understand how data mining, NLP, and LLMs combine to create intelligent, scalable recommendation systems.
 Exploring semantic search, embeddings, and LLM reasoning showed how AI can transform user experiences in domains like hospitality, travel, and e-commerce.
 
-📝 Submission Info
+---
+
+### 📝 Submission Info
 
 Course: CMPE 255 — Data Mining
 Instructor: Prof. Vijay Eranti
