@@ -1,123 +1,106 @@
-🏨 Enhancing Hotel Recommendations with AI
+📘 Enhancing Hotel Recommendations with AI: LLM-Based Review Summarization & Query-Driven Insights
+
 CMPE 255 — Data Mining Short Story Assignment
 
 Author: Alekya Gudise
 
-🧩 Project Overview
+🧾 Project Overview
 
 This repository contains my CMPE 255 Data Mining Short Story Project, based on the research paper:
 
-📄 "HotelReview-Eval: A Framework for Evaluating Hotel Review-Based Reasoning Capabilities of LLMs"
-arXiv, 2025
-🔗 Paper Link: https://arxiv.org/pdf/2510.18277
+“Stop Scrolling, Start Asking: How AI and LLMs Are Revolutionizing Your Hotel Booking Experience”
+🔗 (Selected Topic – ArXiv Paper): https://arxiv.org/pdf/2510.18277
 
-This project explores how Large Language Models (LLMs) enhance hotel recommendation systems through:
+The project explores how Large Language Models (LLMs) transform hotel recommendation systems by summarizing user reviews, extracting semantic meaning, and offering query-driven insights to guide travelers toward better decisions. It investigates how AI can process unstructured hotel reviews to produce structured, personalized recommendations.
 
-Review summarization
+📁 Repository Contents
 
-Query-driven insights
-
-Sentiment + preference extraction
-
-Explanation-driven decision support
-
-The goal of the short story is to translate the research into a user-friendly, human-readable narrative while retaining core data mining concepts.
-
-📂 Repository Contents
-DM_ShortStory/
+DM_Shortstory/
 │
-├── Medium/        → Medium article content  
-├── Paper/         → Paper reference + short story PDF (optional)
-├── Slides/        → Presentation deck
-├── Video/         → YouTube link or local video contents  
-└── README.md      → Documentation
+├── Medium/         → Medium article content + drafts
+├── Paper/          → Research paper + references
+├── Slides/         → Presentation slides (PDF/PPT)
+├── Video/          → Video recording link or placeholder
+└── README.md       → Documentation (this file)
 
 ✍️ Medium Article
 
-A human-written short story explaining how AI and LLMs are transforming the hotel-booking experience.
+A human-written, easy-to-read reflection on the project, discussing:
 
-🔗 Read on Medium
+Motivation
+
+LLM-based summarization
+
+Query-driven recommendations
+
+Results & observations
+
+📖 Read on Medium:
 👉 https://medium.com/@alekyagudise1008/stop-scrolling-start-asking-how-ai-and-llms-are-revolutionizing-your-hotel-booking-experience-0bf7978f1631
 
 🎥 Video Presentation
 
-Duration: 8–12 minutes
-Content: Overview of selected paper, methodology, short story narrative, and reflections.
+Duration: ~10 minutes
+Content: Overview of motivation, dataset, LLM methodology, results, and takeaways.
 
-🔗 Watch the Presentation on YouTube
+▶️ Watch the Video:
 👉 https://youtu.be/HL51ooqIgqM
 
-📊 Presentation Deck
+📊 Presentation Slides
 
-A concise, 6–10 slide deck summarizing:
+A concise, visually organized deck summarizing the problem, pipeline, results, and insights.
 
-Problem & motivation
-
-How LLMs process review data
-
-Key takeaways from the paper
-
-Summary of your short story
-
-🔗 View the Slides
+📌 View Slides:
 👉 https://drive.google.com/file/d/15ZHkJ81iZYucOopJcwVPGulCxusDpPhY/view?usp=sharing
 
-🧠 Core Data Mining Concepts Demonstrated
+🧠 Core Data Mining Concepts Covered
 
-This short story touches on several core data mining and machine learning concepts:
+This project demonstrates several data-mining and machine-learning principles:
 
-Text mining & semantic analysis
+Text processing & feature extraction
 
-Query-based information retrieval
+Semantic understanding via embeddings
 
-Sentiment extraction from reviews
+Clustering of similar themes
 
-LLM-driven summarization
+Query-driven summarization
 
-Evaluation frameworks for hotel recommendations
+LLM-powered knowledge distillation
 
-Human-AI collaboration in decision making
+Sentiment and theme analysis
 
-Personalization using embeddings
+Evaluation of LLM reasoning quality
 
-📘 Paper Summary
+📄 Paper Summary
 
-Key ideas from the research:
+LLM-powered summarization significantly improves clarity compared to raw reviews.
 
-LLMs outperform traditional models in review understanding, context reasoning, and user-specific recommendations.
+Query-driven user insights (e.g., “best hotel for families”) show strong contextual reasoning.
 
-Structured evaluation frameworks like HotelReview-Eval reveal how models behave across different query types.
+Classical ML struggles with nuanced user intent compared to LLMs.
 
-LLMs excel at subjective, open-ended questions but may struggle with numeric precision.
-
-The study proposes using LLM-based reasoning to augment hotel recommendation systems with explainability and personalized insights.
+Study demonstrates real-world potential for AI-augmented travel planning systems.
 
 📦 Assignment Deliverables
 Deliverable	Description	Link
-Medium Article	Human-written storytelling form of the paper	Medium Link
+Medium Article	Human-written short story & reflections	Medium
 
-Presentation Video	Short story walkthrough & explanation	YouTube Video
+Video Presentation	10-minute walkthrough of the project	YouTube
 
-Slides Deck	Slide deck used in video	Slides
+Slides	Presentation deck summarizing study	Slides
 
-README	Full documentation	(This file)
-💭 Reflections
+Paper	Original topic from ArXiv	ArXiv PDF
 
-This project helped deepen my understanding of how LLMs + data mining can:
+README	Full documentation	This file
+💡 Reflections
 
-Simplify complex review data
-
-Provide meaningful insights to users
-
-Improve user experience in travel platforms
-
-Build trust through transparent recommendations
-
-It also highlights the importance of human oversight when LLMs are included in real-world decision systems.
+This project explores how data mining, AI, and LLMs enhance user experiences in the travel domain.
+Understanding user intent, summarizing opinions, and generating actionable insights demonstrate how modern LLMs can improve hotel search and booking systems.
+The findings reveal the promise of hybrid human-AI systems for practical decision-making.
 
 📝 Submission Info
 
 Course: CMPE 255 — Data Mining
 Instructor: Prof. Vijay Eranti
 Student: Alekya Gudise
-Date: Fall 2025
+Year: Fall 2025
