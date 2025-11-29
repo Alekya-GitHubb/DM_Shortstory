@@ -1,326 +1,123 @@
-# Enhancing Hotel Recommendations with AI: LLM-Based Review Summarization and Query-Driven Insights
+🏨 Enhancing Hotel Recommendations with AI
+CMPE 255 — Data Mining Short Story Assignment
 
-## 📚 Project Overview
+Author: Alekya Gudise
 
-This data mining project explores how Large Language Models (LLMs) can revolutionize the short-term rental and hotel booking experience by automatically summarizing user reviews and extracting actionable insights. The research addresses a critical pain point in modern booking platforms: the overwhelming volume of reviews that makes it difficult for users to make informed decisions efficiently.
+🧩 Project Overview
 
-### The Problem
+This repository contains my CMPE 255 Data Mining Short Story Project, based on the research paper:
 
-Modern booking platforms like Booking.com and Airbnb host millions of properties, each with potentially hundreds or thousands of reviews. Users face several challenges:
+📄 "HotelReview-Eval: A Framework for Evaluating Hotel Review-Based Reasoning Capabilities of LLMs"
+arXiv, 2025
+🔗 Paper Link: https://arxiv.org/pdf/2510.18277
 
-- **Information overload**: Reading through extensive reviews is time-consuming
-- **Irrelevant content**: Much of the review text doesn't address specific user concerns
-- **Decision fatigue**: Filtering accommodations by traditional metrics (stars, amenities, cost) still leaves substantial manual review analysis
-- **Hidden insights**: Key property characteristics mentioned in reviews aren't easily discoverable
+This project explores how Large Language Models (LLMs) enhance hotel recommendation systems through:
 
-### The Solution: InstaGuide
+Review summarization
 
-**InstaGuide** is an intelligent web application that leverages LLMs to:
+Query-driven insights
 
-1. **Automatically extract** text-based user reviews from booking platforms
-2. **Synthesize summaries** that highlight key aspects of properties
-3. **Provide user feedback** on personal questions/criteria about specific accommodations
-4. **Enable query-driven exploration** allowing users to ask specific questions about properties
+Sentiment + preference extraction
 
----
+Explanation-driven decision support
 
-## 🎯 Research Objectives
+The goal of the short story is to translate the research into a user-friendly, human-readable narrative while retaining core data mining concepts.
 
-### Primary Goals
+📂 Repository Contents
+DM_ShortStory/
+│
+├── Medium/        → Medium article content  
+├── Paper/         → Paper reference + short story PDF (optional)
+├── Slides/        → Presentation deck
+├── Video/         → YouTube link or local video contents  
+└── README.md      → Documentation
 
-- Evaluate the effectiveness of LLM-based review summarization for short-term rental properties
-- Compare performance across different LLM models in terms of accuracy, cost, and response quality
-- Reduce user decision-making time while maintaining or improving decision quality
-- Mine actionable insights from unstructured review data
+✍️ Medium Article
 
-### Key Research Questions
+A human-written short story explaining how AI and LLMs are transforming the hotel-booking experience.
 
-1. How accurately can LLMs summarize hotel/rental reviews while preserving critical information?
-2. What is the cost-benefit tradeoff between different LLM models for this application?
-3. Can automated summarization significantly reduce the time users spend searching for accommodations?
-4. How well can LLMs answer specific user queries based on review corpus?
+🔗 Read on Medium
+👉 https://medium.com/@alekyagudise1008/stop-scrolling-start-asking-how-ai-and-llms-are-revolutionizing-your-hotel-booking-experience-0bf7978f1631
 
----
+🎥 Video Presentation
 
-## 🔬 Methodology
+Duration: 8–12 minutes
+Content: Overview of selected paper, methodology, short story narrative, and reflections.
 
-### Data Collection
+🔗 Watch the Presentation on YouTube
+👉 https://youtu.be/HL51ooqIgqM
 
-- **Source**: Reviews from booking platforms (e.g., Booking.com, Airbnb)
-- **Data type**: Unstructured text data (user reviews)
-- **Extraction method**: Web scraping and automated text extraction from platform pages
+📊 Presentation Deck
 
-### LLM Evaluation Framework
+A concise, 6–10 slide deck summarizing:
 
-Multiple Large Language Models were evaluated based on three key metrics:
+Problem & motivation
 
-#### 1. **Accuracy**
-- Preservation of key information from original reviews
-- Factual correctness of generated summaries
-- Coverage of important property aspects
+How LLMs process review data
 
-#### 2. **Cost**
-- API usage costs per query
-- Token consumption efficiency
-- Scalability considerations
+Key takeaways from the paper
 
-#### 3. **Response Quality**
-- Coherence and readability of summaries
-- Relevance to user queries
-- Actionability of insights provided
+Summary of your short story
 
-### Models Evaluated
+🔗 View the Slides
+👉 https://drive.google.com/file/d/15ZHkJ81iZYucOopJcwVPGulCxusDpPhY/view?usp=sharing
 
-The InstaGuide tool tested various LLM architectures including:
-- GPT-based models (OpenAI)
-- Open-source alternatives
-- Domain-specific fine-tuned models
+🧠 Core Data Mining Concepts Demonstrated
 
-*(Specific models would be detailed in the full research paper)*
+This short story touches on several core data mining and machine learning concepts:
 
----
+Text mining & semantic analysis
 
-## 💡 Key Features of InstaGuide
+Query-based information retrieval
 
-### 1. **Automated Review Aggregation**
-- Scrapes and consolidates reviews from target properties
-- Handles multiple review sources and formats
-- Preprocesses text for optimal LLM input
+Sentiment extraction from reviews
 
-### 2. **Intelligent Summarization**
-- Generates concise summaries highlighting key property aspects
-- Identifies patterns across multiple reviews
-- Extracts sentiment and common themes
+LLM-driven summarization
 
-### 3. **Query-Driven Insights**
-- Users can ask specific questions about properties
-- "Is this place suitable for families with small children?"
-- "How is the noise level at night?"
-- "Are there any accessibility issues mentioned?"
+Evaluation frameworks for hotel recommendations
 
-### 4. **Comparative Analysis**
-- Enables side-by-side comparison of multiple properties
-- Highlights distinguishing features
-- Surfaces deal-breakers and unique selling points
-
----
-
-## 📊 Expected Outcomes & Results
-
-### Hypothesis
-
-LLM-powered summarization will:
-- ✅ Significantly reduce time spent reading reviews (target: 50-70% reduction)
-- ✅ Maintain or improve decision quality
-- ✅ Surface insights that users might miss in manual review reading
-- ✅ Provide personalized, query-specific information
-
-### Performance Metrics
-
-The tool's effectiveness is measured by:
-
-- **Time savings**: Reduction in minutes spent per booking decision
-- **User satisfaction**: Quality of final booking choices
-- **Accuracy rate**: Percentage of correctly summarized review content
-- **Cost efficiency**: Operational cost per user query
-- **Query response quality**: User rating of answer relevance and helpfulness
-
----
-
-## 🛠️ Technical Architecture
-
-### System Components
-
-```
-┌─────────────────┐
-│  User Interface │
-│   (Web App)     │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────┐
-│  Query Processing   │
-│  & Routing Layer    │
-└─────────┬───────────┘
-          │
-          ▼
-┌──────────────────────┐
-│   LLM Integration    │
-│   (API Calls)        │
-└─────────┬────────────┘
-          │
-          ▼
-┌──────────────────────┐
-│  Review Database     │
-│  (Scraped Data)      │
-└──────────────────────┘
-```
+Human-AI collaboration in decision making
 
-### Technology Stack
+Personalization using embeddings
 
-- **Frontend**: Web-based interface for user interaction
-- **Backend**: API integration with LLM providers
-- **Data Storage**: Database for cached reviews and summaries
-- **Scraping**: Automated tools for review extraction
-- **NLP Pipeline**: Text preprocessing and prompt engineering
+📘 Paper Summary
 
----
+Key ideas from the research:
 
-## 🎓 Data Mining Techniques Applied
+LLMs outperform traditional models in review understanding, context reasoning, and user-specific recommendations.
 
-### 1. **Text Mining**
-- Extraction of structured information from unstructured review text
-- Named entity recognition for amenities, locations, and features
-- Sentiment analysis across review corpus
+Structured evaluation frameworks like HotelReview-Eval reveal how models behave across different query types.
 
-### 2. **Information Retrieval**
-- Ranking and filtering of relevant reviews based on user queries
-- Semantic search capabilities
-- Context-aware information extraction
+LLMs excel at subjective, open-ended questions but may struggle with numeric precision.
 
-### 3. **Natural Language Processing**
-- Text summarization using transformer models
-- Question-answering systems
-- Semantic similarity matching
+The study proposes using LLM-based reasoning to augment hotel recommendation systems with explainability and personalized insights.
 
-### 4. **Pattern Recognition**
-- Identification of recurring themes across reviews
-- Anomaly detection (unusual complaints or praises)
-- Trend analysis in guest feedback
+📦 Assignment Deliverables
+Deliverable	Description	Link
+Medium Article	Human-written storytelling form of the paper	Medium Link
 
-### 5. **Feature Engineering**
-- Extraction of property characteristics from free text
-- Conversion of qualitative data to quantitative insights
-- Creation of searchable property profiles from review content
+Presentation Video	Short story walkthrough & explanation	YouTube Video
 
----
+Slides Deck	Slide deck used in video	Slides
 
-## 📈 Business Impact & Applications
+README	Full documentation	(This file)
+💭 Reflections
 
-### For Users (Travelers)
-- Faster, more informed booking decisions
-- Personalized insights based on specific needs
-- Reduced risk of booking unsuitable accommodations
+This project helped deepen my understanding of how LLMs + data mining can:
 
-### For Booking Platforms
-- Enhanced user experience leading to higher conversion rates
-- Differentiation from competitors
-- Reduced customer service inquiries about property details
+Simplify complex review data
 
-### For Property Owners
-- Actionable feedback from aggregated review insights
-- Identification of improvement areas
-- Better understanding of guest priorities
+Provide meaningful insights to users
 
----
+Improve user experience in travel platforms
 
-## 🔮 Future Enhancements
+Build trust through transparent recommendations
 
-### Potential Improvements
+It also highlights the importance of human oversight when LLMs are included in real-world decision systems.
 
-1. **Multi-modal analysis**: Incorporate image recognition from property photos
-2. **Personalization**: Learn user preferences over time
-3. **Real-time updates**: Continuous monitoring of new reviews
-4. **Price-value analysis**: Combine review insights with pricing data
-5. **Predictive analytics**: Forecast property quality based on review trends
-6. **Multi-language support**: Handle reviews in various languages
+📝 Submission Info
 
-### Research Extensions
-
-- Comparison with traditional recommendation systems
-- A/B testing with actual booking platform users
-- Long-term impact study on user satisfaction
-- Cross-platform review aggregation
-- Fine-tuning domain-specific LLMs for hospitality sector
-
----
-
-## 📝 Academic Context
-
-**Research Area**: Information Retrieval (cs.IR)
-
-**Keywords**: 
-- Large Language Models
-- Review Summarization
-- Recommender Systems
-- Natural Language Processing
-- Query-Driven Information Extraction
-- Short-term Rental Analytics
-
-**Submission**: arXiv:2510.18277 [cs.IR]
-
-**Authors**: Nikolaos Belibasakis, Anastasios Giannaros, Ioanna Giannoukou, Spyros Sioutas
-
-**Submission Date**: October 21, 2025
-
----
-
-## 🎯 Key Takeaways for Data Scientists
-
-### What Makes This Project Interesting
-
-1. **Real-world application**: Solves a genuine pain point in e-commerce
-2. **LLM evaluation framework**: Systematic comparison of model performance
-3. **Scalability challenges**: Handling large volumes of unstructured text
-4. **User-centric design**: Focus on practical decision-making improvement
-5. **Cost-performance tradeoffs**: Balancing quality with operational expenses
-
-### Data Mining Lessons
-
-- **Text data is rich but messy**: Reviews contain valuable insights buried in noise
-- **Context matters**: Summarization must preserve user intent and property context
-- **Evaluation is multi-dimensional**: Accuracy alone doesn't capture usefulness
-- **Domain knowledge helps**: Understanding hospitality context improves results
-- **User feedback loop**: System improves with actual user query patterns
-
----
-
-## 🚀 Getting Started (Conceptual)
-
-### Prerequisites
-- Access to booking platform data (with appropriate permissions)
-- LLM API credentials (OpenAI, Anthropic, etc.)
-- Web scraping infrastructure
-- Database for review storage
-
-### Basic Workflow
-
-1. **Data Collection**: Scrape reviews from target properties
-2. **Preprocessing**: Clean and structure review text
-3. **LLM Integration**: Set up API calls with optimized prompts
-4. **Summarization**: Generate property summaries from review corpus
-5. **Query Interface**: Build Q&A system for user-specific questions
-6. **Evaluation**: Measure accuracy, cost, and user satisfaction
-7. **Iteration**: Refine prompts and model selection based on results
-
----
-
-## 📚 References & Resources
-
-- **arXiv Paper**: [arXiv:2510.18277](https://arxiv.org/abs/2510.18277)
-- **DOI**: https://doi.org/10.48550/arXiv.2510.18277
-
-For detailed methodology, experimental results, and comprehensive evaluation metrics, please refer to the full research paper.
-
----
-
-## 📧 Contact & Collaboration
-
-This project represents an innovative application of Large Language Models to the hospitality and travel booking domain. The InstaGuide system demonstrates how AI can transform user experience by making sense of vast amounts of unstructured review data.
-
-**Research Domain**: Computer Science > Information Retrieval
-
----
-
-## 🏆 Project Significance
-
-This research contributes to the growing field of AI-powered information retrieval and demonstrates practical applications of LLMs beyond traditional chatbot implementations. By focusing on summarization and query-driven insights, InstaGuide showcases how modern AI can enhance decision-making in data-rich environments.
-
-The findings have implications for:
-- E-commerce recommendation systems
-- Review analysis platforms
-- Travel technology
-- Customer feedback analytics
-- AI-assisted decision support systems
-
----
+Course: CMPE 255 — Data Mining
+Instructor: Prof. Vijay Eranti
+Student: Alekya Gudise
+Date: Fall 2025
